@@ -50,7 +50,7 @@
 
         //Recipients
         //quem vai enviar e receber o email
-        $mail->setFrom('email', 'Rodrigo');
+        $mail->setFrom('email', 'nome');
         $mail->addAddress($msg->__get('para'));     //Add a recipient
         //$mail->addAddress('ellen@example.com');               //Name is optional
         //$mail->addReplyTo('info@example.com', 'Information');
